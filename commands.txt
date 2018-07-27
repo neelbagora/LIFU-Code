@@ -1,0 +1,18 @@
+GUI Commands:
+save(preset number, char* configuration) - save configuration under preset number.
+preset(preset number) - load preset settings
+
+status - return LIFU Output Status
+start - start output treatment
+stop - stop output
+reset - reset system
+load(char* configuration)
+
+
+Error Codes from STM:
+Error 100 - No Websocket connection
+Error 200 - No Ethernet connection
+
+Error Codes from Server:
+ERROR 400 - No STM Connected
+SOCKETERROR - No Server Connected

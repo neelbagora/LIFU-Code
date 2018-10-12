@@ -1,4 +1,4 @@
-# LIFU-Code
+# LIFU-Code by Neel Bagora
 Code for importing into Mbed compiler
 
 # Steps:

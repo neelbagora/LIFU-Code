@@ -18,7 +18,6 @@ int main(void)
     while (1)
     {
     }
- 
 }
  
 static void MX_TIM2_Init(void)

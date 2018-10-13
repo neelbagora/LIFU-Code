@@ -71,4 +71,5 @@ private:
      */
     TimerConfig* timerConfig;
 };
+
 #endif

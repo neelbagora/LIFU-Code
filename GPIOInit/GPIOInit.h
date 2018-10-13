@@ -3,8 +3,6 @@
 
 #include "mbed.h"
 
-//EXISTING BUG
-
 class GPIOInit 
 {
 public:
@@ -27,10 +25,9 @@ public:
      */
     void MX_GPIO_Init(void);
     
-    //BUG FOUND HERE
     /* FUNCTION MX_GPIO_Init
-     * DeInitializes GPIO Pins, do not use HAL_DeInit(). Trust me, the board 
-     * will not work. Function is complete as deinitialization is meant for signal cutoff
+     * DeInitializes GPIO Pins, do not use HAL_DeInit(). 
+     * Deinitialization is for signal cutoff
      *
      * Input: void
      * Output: void

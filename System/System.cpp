@@ -4,6 +4,7 @@ System::System(void)
 {
 }
 
+//Connection Status Indicator
 void System::connected(void)
 {
     DigitalOut led1(LED1);
@@ -12,6 +13,7 @@ void System::connected(void)
     led3 = 0;
 };
 
+//Disconnection Status Indicator
 void System::disconnected(void)
 {
     DigitalOut led1(LED1);

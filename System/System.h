@@ -6,7 +6,7 @@
 class System
 {
 public:
-    //TODO, add more system functions. LEDs are not worth an entire class ..xD
+    //TODO, add more system functions. LEDs are not enough
 
     /* CONSTRUCTOR System
      * Initializes System class for access to system functions. 
